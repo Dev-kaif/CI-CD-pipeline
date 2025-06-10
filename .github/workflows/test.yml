@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd /practice/git-try-act
+            cd practice/git-try-act
             git pull origin main
             pm2 restart all
             echo "Deployment script finished!"
