@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000; // You can change the port if needed
 
 app.get('/', (req, res) => {
-  res.send('Hello World! I am new here 🚀');
+  res.send('Hello World! I am new here to grreet you🚀');
 });
 
 app.listen(PORT, () => {
